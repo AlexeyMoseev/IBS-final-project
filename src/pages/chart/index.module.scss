@@ -1,0 +1,29 @@
+.loading {
+    text-align: center;
+}
+
+.heading {
+	padding-left: 96px;
+}
+
+.button {
+    margin-right: 42px;
+	margin-left: auto;
+}
+
+.buttonExit {
+    margin: 0 0 30px 96px;
+}
+
+.wrapHeadingAndButton {
+	display: flex;
+}
+
+@media screen and (max-width: 800px) {
+	.heading {
+		padding-left: 16px;
+	}
+    .buttonExit {
+		margin-left: 16px;
+	}
+}

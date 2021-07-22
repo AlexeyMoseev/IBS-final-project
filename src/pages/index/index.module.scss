@@ -1,0 +1,35 @@
+.main {
+	padding: 50px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 0px 16px;
+	font-weight: 500;
+	font-size: medium;
+}
+
+.heading {
+	color: blue;
+}
+
+.label {
+	margin-top: 30px;
+}
+
+.rangeLabel {
+	margin-top: 50px;
+}
+
+.button {
+	margin: 30px 0;
+}
+
+.message {
+	padding-top: 30px;
+	color: red;
+}
+
+.region {
+	display: none;
+}

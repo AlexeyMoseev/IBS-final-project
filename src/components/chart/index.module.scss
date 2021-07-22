@@ -1,0 +1,50 @@
+.chart {
+	padding: 0 16px;
+	width: 100%;
+	font-family: 'Roboto', serif;
+}
+
+.label {
+	text-align: center;
+	font-weight: 500;
+	font-size: larger;
+}
+
+.wrapButton {
+	flex-wrap: wrap;
+	display: flex;
+	margin: 0px 20px 10px 80px;
+}
+
+.buttonPng {
+	margin: 0 30px 10px 0;
+}
+
+.buttonPdf {
+	margin: 0 30px 10px 0;
+}
+
+.messageMobile {
+	display: none;
+}
+
+.messageReport {
+	display: flex;
+	align-items: center;
+	color: red;
+}
+
+@media screen and (max-width: 800px) {
+	.barChart {
+		display: none;
+	}
+	.messageMobile {
+		display: block;
+	}
+	.wrapButton {
+		margin: 10px 20px 10px 0px;
+	}
+	.buttonPng {
+		display: none;
+	}	
+}
